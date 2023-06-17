@@ -1,0 +1,58 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "  \nfunction division(number, dividedBy) {\n    // Write you logic here.\n    if( number < dividedBy){\n    return 0 ;\n}\n    return 1 + division(number - dividedBy, dividedBy);\n\n }\n\n division(50,5)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33m10\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "\nfunction pow(x, n) {\n    // Write you logic here.  \n    if (n==0) {\n    return 1;\n}\n  \n    return x * pow(x,n-1);\n}\npow(2,4)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33m16\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "\nfunction fibonacci(n) {\n    // Write you logic here.\n    if (n<=1){\n    return n;\n    }\n    return fibonacci(n-1) + fibonacci(n-2);\n}\nfibonacci(3)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33m2\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
